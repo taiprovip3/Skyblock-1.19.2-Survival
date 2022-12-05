@@ -1,0 +1,78 @@
+#                                                                         
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#                                                                         
+
+settings:
+  platform:
+    enabled: true
+    # List of hooks:
+    # DYNAMIC > Will select auto
+    #
+    # AcidIsland
+    # AdvancedRealm
+    # ASkyBlock
+    # BentoBox
+    # FabledSkyBlock
+    # Factions >
+    # - FactionsUUID
+    # - SaberFactions
+    # FactionsBridge
+    # GriefPrevention
+    # hClaims
+    # IridiumSkyblock
+    # IslandWorld
+    # JetsPrisonCells
+    # Kingdoms
+    # Lands
+    # Residence
+    # SuperiorSkyblock2
+    # Towny
+    # UltimateClaims
+    # uSkyBlock
+    hook: DYNAMIC
+    # Setting whether the hook should only support global blacklists or platform Envoys.
+    only_for_global_integration: false
+
+  global_enabled: true
+
+  hologram:
+    enabled: true
+    # List of hooks:
+    # DYNAMIC > Will select auto
+    #
+    # CMI
+    # DecentHolograms
+    # GHolo
+    # HolographicDisplays
+    hook: DYNAMIC
+    height: 3.0
+
+  # /ApiaEnvoy Menu
+  menus_enabled: true
+
+  command_sounds:
+    success:
+      enabled: true
+      sound: 'ENTITY_ARROW_HIT_PLAYER'
+      volume: 1.0
+      pitch: 1.0
+    failed:
+      enabled: true
+      sound: 'ENTITY_ARROW_HIT'
+      volume: 1.0
+      pitch: 1.0
+
+  max_stack_sizes:
+    # 0 will use material's max stack size.
+    default: 0
+    # Here you can make your own max stack size for materials.
+    materials:
+      EGG: 64
+
+  # Do not change it unless you are told.
+  debug: false

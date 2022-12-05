@@ -1,0 +1,373 @@
+#
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#
+
+menu:
+  select_envoy_type:
+    title: '&8[&eSelect Envoy Type&8]'
+    size: 27
+    fill:
+      '0':
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          name: '&a'
+      '1':
+        item:
+          material: YELLOW_STAINED_GLASS_PANE
+          name: '&a'
+      '2':
+        item:
+          material: PURPLE_STAINED_GLASS_PANE
+          name: '&a'
+      '3':
+        item:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&a'
+      '4':
+        item:
+          material: PINK_STAINED_GLASS_PANE
+          name: '&a'
+      '5':
+        item:
+          material: ORANGE_STAINED_GLASS_PANE
+          name: '&a'
+      '6':
+        item:
+          material: CYAN_STAINED_GLASS_PANE
+          name: '&a'
+    interactive_content:
+      global:
+        slot: 11
+        item:
+          name: '&eSelect Global'
+          lore:
+            - '&7Anywhere in the world!'
+          material: GRASS_BLOCK
+      platform:
+        slot: 15
+        item:
+          name: '&eSelect Platform'
+          lore:
+            - '&7Only in supported platforms.'
+          material: BEDROCK
+  add_tier:
+    title: '&8[&eAdd Tier&8]'
+    size: 45
+    fill:
+      item:
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    interactive_content:
+      set_id:
+        slot: 10
+        item:
+          name: '&eSet id'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFhNjI4NWFiOTBlNmJhOThjZmRmZjQyZjdlNjc1MzdjODQ0ZjMzYmNjY2JkODFhYTZkNmMwNmNiMjgxYTc5NyJ9fX0='
+      set_can_spawn_in_envoy:
+        slot: 12
+        item:
+          name: '&eSet can spawn in envoy'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkODMyYTc4OGJiMTk0ZDMxNDZlNDU1OGI0ZDZiOTdkZjEyOTM5MmY5MzlhOWM2ZWI0ZmUxYmMxOTdkY2Q1In19fQ=='
+      set_allow_duplicate:
+        slot: 14
+        item:
+          name: '&eSet allow duplicate'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFmMjVhZmViYzExNTg0NTZiNDhkMzkxODQwNjkxNTQwMjYxNGE5NjAzYzVjNWQ0Y2Q1OGIwYjIxZDBhNzMzZSJ9fX0='
+      set_shuffle_loots:
+        slot: 16
+        item:
+          name: '&eSet shuffle loots'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3Y2U0MzczNGNiZWZiYjNkYTAzZjlhYzFmMDFhM2RmNDU2Y2VlMjMxNTUwYmQyZGQ0MjU4NTU5NGY5In19fQ=='
+      set_chance:
+        slot: 28
+        item:
+          name: '&eSet chance'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0='
+      set_minimum_loot:
+        slot: 30
+        item:
+          name: '&eSet minimum loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19'
+      set_maximum_loot:
+        slot: 32
+        item:
+          name: '&eSet maximum loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYyMjcwMzZiOGFmZWQ2OTM1ZDUzMTQzZDE2NDg4ZDM5Y2Y0ZmI3M2E2NzFmMmIyOTU1ZTgwZmM5ZGZlNDU4In19fQ=='
+      select_loots:
+        slot: 34
+        item:
+          name: '&eSelect loots'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmOGRhYWRjZGRiMDg4YThlZDg3NTliYTAyNzcwZDcyODIxNGYwN2NkZDkzYTYzMGI4ZTdkM2NhMDM3M2RjIn19fQ=='
+      back:
+        slot: 36
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 44
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='
+  select_loot:
+    title: '&8[&eSelect Loot&8]'
+    size: 54
+    fill:
+      item:
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    interactive_content:
+      loot:
+        slot: 0-44
+        item:
+          include_lore:
+            - '&7Chance: &e%chance%'
+            - '&8&l[&a&l✓&8&l]'
+          exclude_lore:
+            - '&7Chance: &e%chance%'
+            - '&8&l[&c&l✖&8&l]'
+      back:
+        slot: 45
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 53
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='
+  add_loot:
+    title: '&8[&eAdd Loot&8]'
+    size: 27
+    fill:
+      item:
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    interactive_content:
+      item_loot:
+        slot: 11
+        item:
+          name: '&eAdd item loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4MzJjMTQ2NmM4NDFjYzc5ZDVmMTAyOTVkNDY0Mjc5OTY3OTc1YTI0NTFjN2E1MzNjNzk5Njg5NzQwOGJlYSJ9fX0='
+      bulk_item_loot:
+        slot: 13
+        item:
+          name: '&eAdd bulk item loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ1YjU4ZDZlN2Q0Y2Q5ODdkMDgxYjkxZWZlMDllZTBkMjA3OGYwZGI0M2Y1MGQwYTZjZjNiMzI3NzBhZWE0ZiJ9fX0='
+      command_loot:
+        slot: 15
+        item:
+          name: '&eAdd command loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MjQ0ODkyODJhYmViMzhhZWFjYmY0YzBlYjNhZDQwMGQ1MjU3ZmZiM2E2MDViODdjZjIzMWM5MmZhMmY0YyJ9fX0='
+      back:
+        slot: 18
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+  add_item_loot:
+    title: '&8[&eAdd Item Loot&8]'
+    size: 27
+    fill:
+      exclude:
+        - 17
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a'
+    fixed_content:
+      info:
+        slot: 22
+        item:
+          material: SUNFLOWER
+          name: '&eInfo'
+          lore:
+            - '&7Add your item to empty slot.'
+    interactive_content:
+      set_id:
+        slot: 9
+        item:
+          name: '&eSet id'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFhNjI4NWFiOTBlNmJhOThjZmRmZjQyZjdlNjc1MzdjODQ0ZjMzYmNjY2JkODFhYTZkNmMwNmNiMjgxYTc5NyJ9fX0='
+      set_chance:
+        slot: 11
+        item:
+          name: '&eSet chance'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0='
+      add_message:
+        slot: 13
+        item:
+          name: '&eAdd message line'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAyYWYzY2EyZDVhMTYwY2ExMTE0MDQ4Yjc5NDc1OTQyNjlhZmUyYjFiNWVjMjU1ZWU3MmI2ODNiNjBiOTliOSJ9fX0='
+      add_broadcast:
+        slot: 15
+        item:
+          name: '&eAdd broadcast line'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwMDA3MzExZjY1ODk0NTg2Nzg4NDk0NTcyMmE0MzBjNTI3ZjMyMjNiOTA5NjEyZTQ1ZDAzMjA4OTZlYWU5YSJ9fX0='
+      item_slot:
+        slot: 17
+        item:
+          material: AIR
+      back:
+        slot: 18
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 26
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='
+  add_bulk_item_loots:
+    title: '&8[&eAdd Bulk Item Loots&8]'
+    size: 36
+    fill:
+      exclude:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a'
+    fixed_content:
+      info:
+        slot: 31
+        item:
+          material: SUNFLOWER
+          name: '&eInfo'
+          lore:
+            - '&7Add your items to empty slots.'
+    interactive_content:
+      item_slot:
+        slot: 0-26
+        item:
+          material: AIR
+      back:
+        slot: 27
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 35
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='
+  add_command_loot:
+    title: '&8[&eAdd Command Loot&8]'
+    size: 54
+    fill:
+      exclude:
+        - 34
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a'
+    fixed_content:
+      info:
+        slot: 49
+        item:
+          material: SUNFLOWER
+          name: '&eInfo'
+          lore:
+            - '&7Add your preview item to empty slot.'
+    interactive_content:
+      set_id:
+        slot: 11
+        item:
+          name: '&eSet id'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFhNjI4NWFiOTBlNmJhOThjZmRmZjQyZjdlNjc1MzdjODQ0ZjMzYmNjY2JkODFhYTZkNmMwNmNiMjgxYTc5NyJ9fX0='
+      set_chance:
+        slot: 13
+        item:
+          name: '&eSet chance'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0='
+      add_server_command:
+        slot: 15
+        item:
+          name: '&eAdd server command'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MjQ0ODkyODJhYmViMzhhZWFjYmY0YzBlYjNhZDQwMGQ1MjU3ZmZiM2E2MDViODdjZjIzMWM5MmZhMmY0YyJ9fX0='
+      add_player_command:
+        slot: 28
+        item:
+          name: '&eAdd player command'
+          material: PLAYER_HEAD
+      add_message:
+        slot: 30
+        item:
+          name: '&eAdd message line'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAyYWYzY2EyZDVhMTYwY2ExMTE0MDQ4Yjc5NDc1OTQyNjlhZmUyYjFiNWVjMjU1ZWU3MmI2ODNiNjBiOTliOSJ9fX0='
+      add_broadcast:
+        slot: 32
+        item:
+          name: '&eAdd broadcast line'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwMDA3MzExZjY1ODk0NTg2Nzg4NDk0NTcyMmE0MzBjNTI3ZjMyMjNiOTA5NjEyZTQ1ZDAzMjA4OTZlYWU5YSJ9fX0='
+      item_slot:
+        slot: 34
+        item:
+          material: AIR
+      back:
+        slot: 45
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 53
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='

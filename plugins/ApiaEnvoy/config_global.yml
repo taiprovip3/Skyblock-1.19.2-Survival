@@ -1,0 +1,403 @@
+#
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#
+
+settings:
+  placeholder_format: '%hh:%mm:%ss'
+
+  # If you set this to false only empty Envoy will be deleted.
+  can_break_envoy: true
+
+  disable_putting_items_to_envoy: true
+
+  # If you set this to false hopper can't take items from Envoy. You also need to set hopper disable-move-event to false in paper.yml.
+  hopper_can_transfer: false
+
+  # If you set this to true piston can't move Envoy block.
+  prevent_piston_move: true
+
+  # Should plugin delete Envoy when player take items?
+  delete_envoy_when_empty: true
+
+  can_explode_envoy: false
+
+  # Envoy rises when broken or taken.
+  envoy_rise:
+    height: 5.0
+
+  open_envoy_instantly:
+    enabled: false
+    # Drop items or give it to the player
+    drop: true
+
+  # Should Envoy time resets when server stop or when plugin reloads?
+  envoy_time_reset: true
+
+  # Valid values are: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, WEEKDAY, WEEKEND, EVERYDAY
+  # Valid hours: 0-23
+  # Valid minutes: 0-59
+  #
+  # MVdWPlaceHolderAPI placeholders are:
+  # {apiaenvoy_global_dates_time_next} -> Shows the time remaining to the nearest Envoy Date.
+  # {apiaenvoy_global_dates_time_<id>} -> Shows the time remaining to specified Envoy Date. Example: {apiaenvoy_global_dates_time_0}
+  # PlaceholderAPI placeholders are:
+  # %apiaenvoy_global_dates_time_next% -> Shows the time remaining to the nearest Envoy Date.
+  # %apiaenvoy_global_dates_time_<id>% -> Shows the time remaining to specified Envoy Date. Example: %apiaenvoy_global_dates_time_0%
+  envoy_dates:
+    enabled: false
+    # %dd or %d for day
+    # %hh or %h for hour
+    # %mm or %m for minute
+    # %ss or %s for second
+    placeholder_format: '%dd:%hh:%mm:%ss'
+    '0':
+      day: FRIDAY
+      hour: 19
+      minute: 23
+      # Global envoy id
+      world_id: 'world_0'
+    '1':
+      day: EVERYDAY
+      hour: 10
+      minute: 29
+      world_id: 'world_0'
+
+  # Power: 0-128
+  # Don't use higher power or your server will crash.
+  # Colors: R:G:B
+  fireworks:
+    '0':
+      power: 1
+      effects:
+        '0':
+          type: BALL
+          flicker: true
+          trail: true
+          colors:
+            - '255:69:0'
+            - '255:215:0'
+            - '0:255:0'
+          fades:
+            - '220:20:60'
+
+  # Only for ARMOR_STAND type
+  # Particle type of Envoy
+  # For 1.8.8 visit: https://www.spigotmc.org/wiki/particle-list-1-8-8/
+  # For 1.9 and higher visit (Make sure your version support specified particle): https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  particles:
+    center:
+      enabled: true
+      particle: FLAME
+      amount: 10
+      rgb: '127:127:127'
+      rainbow: false
+    line:
+      enabled: true
+      # If you are using 1.8.8 change line particle to LAVADRIP or something else
+      particle: DRIP_LAVA
+      amount: 1
+      rgb: '0:0:0'
+      rainbow: false
+    spiral:
+      enabled: true
+      particle: SPELL_MOB
+      amount: 1
+      # If particle is not one of this then color (and of course rainbow too) won't work: REDSTONE, SPELL_MOB, SPELL_MOB_AMBIENT, NOTE
+      # For NOTE particle only first number will work. Green and blue parameters won't work
+      # NOTE: 0-24
+      # Others: 0-255
+      rgb: '0:0:0'
+      rainbow: true
+
+  sounds:
+    falling:
+      enabled: false
+      # Sound mode
+      # LOCATION: Play sound in Envoy location.
+      # MAP: Play sound for each player on map.
+      # SERVER: Play sound for each player on server.
+      mode: LOCATION
+      sound: 'BLOCK_NOTE_PLING'
+      volume: 10.0
+      pitch: 1.0
+      # Tick(s)
+      repeat: 20
+      # If you get async errors change this to false.
+      repeat_async: true
+    dropped:
+      enabled: false
+      # Sound mode
+      # LOCATION: Play sound in Envoy location.
+      # MAP: Play sound for each player on map.
+      # SERVER: Play sound for each player on server.
+      mode: LOCATION
+      sound: 'BLOCK_ANVIL_LAND'
+      volume: 10.0
+      pitch: 1.0
+    collected:
+      enabled: false
+      # Sound mode
+      # LOCATION: Play sound in Envoy location.
+      # MAP: Play sound for each player on map.
+      # SERVER: Play sound for each player on server.
+      mode: LOCATION
+      sound: 'ENTITY_CHICKEN_EGG'
+      volume: 10.0
+      pitch: 1.0
+    broken:
+      enabled: false
+      # Sound mode
+      # LOCATION: Play sound in Envoy location.
+      # MAP: Play sound for each player on map.
+      # SERVER: Play sound for each player on server.
+      mode: LOCATION
+      sound: 'ENTITY_ZOMBIE_INFECT'
+      volume: 10.0
+      pitch: 1.0
+
+  # Armor stand head block or falling block.
+  # Owner only works if you are using armor stand and player head.
+  block_to_falls:
+    '0':
+      material: MAGENTA_GLAZED_TERRACOTTA
+      default: true
+    '1':
+      material: PLAYER_HEAD
+      owner: 'custom-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ1ZTljNDY5ZDUzY2ZiYjE2ZjlmNmVmY2FhYzY5ZmI3YWZjYjdiODcxMzU5MzdhODIwOThkMzRhZDEwNjliYSJ9fX0='
+      chance: 50
+
+  # Chest, trapped chest, barrel and shulker boxes
+  envoy_holders:
+    '0':
+      material: CHEST
+      default: true
+    '1':
+      material: BLACK_SHULKER_BOX
+      chance: 50
+
+  envoy_flares:
+    enabled: false
+    cooldown: 10 # Second(s)
+    '0':
+      envoy: 'world_0'
+      y_offset: '5 - 10'
+      item:
+        material: CHEST
+        name: '&e&lLET''S ENVOY'
+        lore:
+          - '&7Right-click for'
+          - '&7The Envoy!'
+        enchants:
+          - 'GLOW:0'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+    '1':
+      envoy: 'world_1'
+      y_offset: '5 - 10'
+      # It will call an envoy automatically when "/ApiaEnvoy Global Flare <Player> <Id>" runs. Because there is no item set.
+      # Be careful when using flare without items because the player may be in a position where they cannot open the envoy (like WorldGuard regions).
+
+  blacklist:
+    enabled: false
+    materials:
+      - 'LAVA'
+      - 'WATER'
+
+  integrations:
+    worldguard:
+      enabled: false
+      blacklist_regions:
+        - '*'
+    dynmap:
+      enabled: false
+      update_interval: 20
+
+global_envoys:
+  world:
+    '0':
+      title: '&9Apia&6Envoy'
+      time: 4-5
+      amount: 30
+      tiers:
+        - tier1
+        - tier2
+      min_tier: 1
+      max_tier: 3
+      min_player_on_server: 1
+      delete_envoy_after: 5
+      envoy_fall_type: FALLING_BLOCK
+      block_to_falls:
+        - '0'
+      envoy_holders:
+        - '0'
+        - '1'
+      locations:
+        '0':
+          x:
+            min: 0
+            max: 500
+          y:
+            min: 60
+            max: 70
+          z:
+            min: 0
+            max: 500
+        '1':
+          amount: 1
+          x:
+            min: 0
+            max: 500
+          y:
+            min: 60
+            max: 70
+          z:
+            min: 0
+            max: 500
+      broadcast:
+        land: true
+      holograms:
+        - '&eTier 1 and Tier 2'
+        - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    '1':
+      title: '&9Apia&6Envoy'
+      time: 5
+      amount: 20
+      tiers:
+        - tier1
+        - tier2
+      min_tier: 1
+      max_tier: 3
+      compass: false
+      rise: true
+      envoy_fall_type: ARMOR_STAND
+      block_to_falls:
+        - '0'
+        - '1'
+      envoy_holders:
+        - '0'
+        - '1'
+      # fa = first air block
+      # hb = highest block
+      # mh = max height
+      # sl = sea level
+      locations:
+        '0':
+          x:
+            default: 0
+          y:
+            default: hb
+          z:
+            default: 0
+      broadcast:
+        land: true
+        start: true
+        times:
+          - 5
+      holograms:
+        - '&eTier 1 and Tier 2'
+        - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+  world_2:
+    '0':
+      title: '&9Apia&6Envoy'
+      time: 20
+      amount: 1
+      # If you want to Envoy per player * amount set this to true.
+      per_player: false
+      tiers:
+        - tier1
+        - tier2
+      min_tier: 1
+      max_tier: 3
+      envoy_fall_type: ARMOR_STAND_2
+      block_to_falls:
+        - '0'
+        - '1'
+      envoy_holders:
+        - '0'
+        - '1'
+      min_player_on_map: 5
+      # Will check monsters around Envoy and if found player can't open Envoy.
+      radius_for_monsters: 10
+      # How far should the selected area start from the players?
+      offset:
+        min: 20
+        max: 50
+      # Separate with spaces and do not use parentheses. The operation has no priority and proceeds from left to right.
+      # Valid math operations: + - * / % R
+      # Placeholders:
+      # fa = first air block
+      # hb = highest block
+      # mh = max height
+      # sl = sea level
+      # py = player's y coordinate
+      y_formula: hb
+      broadcast_same_world:
+        land: true
+        open: true
+        times:
+          - 5
+      holograms:
+        - '&eTier 1 and Tier 2'
+        - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+
+tiers:
+  tier1:
+    chance: 60
+    can_spawn_in_envoy: true
+    min_loot: 1
+    max_loot: 3
+    # Chance of the loot with id 2 is now 8.
+    loots:
+      - 0
+      - 1
+      - '2-8.0'
+  tier2:
+    chance: 40
+    # Shuffle loots everytime before filling envoys.
+    # Useful if your tier has too many loots.
+    shuffle_loots: true
+    min_loot: 1
+    max_loot: 3
+    holograms:
+      - '&6-----------'
+      - '&eTier2 LOOT!'
+      - '&6-----------'
+    loots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+
+loots:
+  '0':
+    chance: 20
+    material: DIAMOND
+  '1':
+    chance: 15
+    material: DIAMOND_SWORD
+  '2':
+    chance: 10
+    material: GOLD_BLOCK
+  '3':
+    chance: 5
+    material: DIAMOND_BLOCK
+  '4':
+    chance: 5
+    server_commands:
+    - 'give <player> emerald 16'
+    messages:
+    - '&eWait for me villagers!'
+    preview:
+      material: PAPER
+      name: '&6&lCLICK TO EXECUTE COMMAND'
+      lore:
+        - '&7Click and'
+        - '&7Execute the command!'
+      enchants:
+        - 'GLOW:1'

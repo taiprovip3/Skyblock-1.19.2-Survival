@@ -1,0 +1,394 @@
+#
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#
+
+prefix: '&8[&9Apia&6Envoy&8] &7&l»&e '
+no_permission: '&cYou don''t have permission to do that!'
+need_break_envoy: '&cYou need break the Envoy for new Envoy.'
+need_break_block: '&cEnvoy couldn''t drop because there is a block at %x% %y% %z%, please break that block.'
+not_enough_players: '&cEnvoy couldn''t drop because there are not enough players on the server. Minimum requirement is &6%minimum_players%&e.'
+not_enough_members: '&cEnvoy couldn''t drop because your online island member size less than &6%minimum_ratio%&e% of all island members.'
+global_not_enough_players: '&cEnvoy couldn''t drop because there are not enough players on the server. Minimum requirement is &6%minimum_players%&e.'
+global_not_enough_players_on_map: '&cEnvoy couldn''t drop because there are not enough players on the map. Minimum requirement is &6%minimum_players%&e.'
+no_location_found: '&cNo location found for your place.'
+envoy_holder_title: '&9Apia&6Envoy'
+envoy_falling_actionbar: '&eEnvoy is falling'
+envoy_dropped:
+  message: 'Envoy dropped go and pick up items! Location is %x% %y% %z%.'
+  title: '&9Apia&6Envoy'
+  subtitle: '&eEnvoy Dropped'
+  actionbar: '&bEnvoy Dropped'
+envoy_full: '&cYour Envoy chest is full. Collect items from it.'
+event_completed: 'You completed an event. Envoy is falling for you!'
+envoy_flare:
+  spawned: 'Envoy is falling for you!'
+  cooldown: 'You have to wait &6%time% &esecond(s) to use again.'
+envoy_broadcast:
+  default:
+    - '&8&l***&r &6%minute% &eMinutes left to Envoy! &r&8&l***'
+  with_reason:
+    - '&8&l***&r &6%minute% &eMinutes left to Envoy! Reason: &6%reason% &r&8&l***'
+  global:
+    - '&8&l***&r &6%minute% &eMinutes left to Envoy for %world%! &r&8&l***'
+  global_world:
+    - '&8&l***&r &6%minute% &eMinutes left to Envoy for this world! &r&8&l***'
+  global_land:
+    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy landed at &6%x% %y% %z%&e in &6%world%'
+  global_open:
+    - '&8[&9Apia&6Envoy&8] &7&l»&6 %player% &eopened an Envoy at &6%x% %y% %z% &ein &6%world%&e. There are &6%remain% &eEnvoy left.'
+  global_start:
+    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy started in &6%world%'
+owner_only:
+  only_owner_can_open_envoy: '&cOnly owner of the island can open the Envoy.'
+  only_members_can_open_envoy: '&cOnly owner and members of the island can open the Envoy.'
+random_location_no_valid_location_found: '&cTried 50 times and no valid locations found in your island.'
+monsters_nearby: '&cThere are monsters nearby!'
+
+compass_mode:
+  no_compass: '&cCompass mode turned off because you don''t have compass in your hand.'
+  no_envoy: '&cCompass mode turned off because no Envoy found in your world for compass.'
+
+holograms:
+  default:
+    - '&8&l&m*=============================*&r'
+    - '&e&l       Come and pick up the items!&r'
+    - '&e&l %amount_of_commands% command(s) prize and %amount_of_items% item(s) prize waiting for you'
+    - '&8&l&m*=============================*&r'
+  default_with_reason:
+    - '&8&l&m*=============================*&r'
+    - '&e&l       Come and pick up the items!&r'
+    - '&e&l %amount_of_commands% command(s) prize and %amount_of_items% item(s) prize waiting for you'
+    - '&e&l        %reason%&r'
+    - '&8&l&m*=============================*&r'
+  envoy_will_fall:
+    - '&8&l&m*==========================*&r'
+    - '&6&l%time% &e&lfor Envoy!&r'
+    - '&8&l&m*==========================*&r'
+
+usage_format:
+  - ''
+  - '&8&m=============&r &9Apia&6Envoy &eCommands &8&m============='
+  - ''
+  - '%usages%'
+  - ''
+  - '&8&m================================================'
+  - ''
+
+location_format: '&7world: &e%world% &7x: &e%x% &7y: &e%y% &7z: &e%z%'
+
+dynmap:
+  label_html: "Envoys"
+  envoy_label_html: "Envoy"
+  description_html: |-
+    <b><u>Envoy</u></b><br>
+    <b>Id</b>: ${Id}<br>
+    <b>Opened</b>: ${Opened}
+  icon_file: 'dynmap_icon.png'
+  opened_true: 'true'
+  opened_false: 'false'
+
+commands:
+  command_disabled: '&cCommand disabled.'
+  player_only: '&cThis command is not available for console use.'
+  help_command:
+    permission: 'apiaenvoy.help'
+    usage:
+      - '&e/ApiaEnvoy Help &7&l»&f Shows this page'
+    aliases: 'h'
+  reload_command:
+    permission: 'apiaenvoy.admin'
+    usage:
+      - '&e/ApiaEnvoy Reload &7&l»&f Reloads the config, lang and menus'
+    aliases: 'rl'
+    complete:
+      reloaded: 'Configs, lang and menus are reloaded in %time%ms!'
+  menu_command:
+    permission: 'apiaenvoy.admin'
+    usage:
+      - '&e/ApiaEnvoy Menu &7&l»&f Shows GUI'
+    aliases: 'gui'
+    complete:
+      successful: 'GUI opened.'
+  global:
+    envoy_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Envoy [String: world_id] &7&l»&f Global Envoy without waiting the time'
+      aliases: 'ge'
+      complete:
+        no_global_envoy: '&cNo Global Envoy found with: %world_id%!'
+        successful: 'Envoy spawned!'
+        successful_specific: '&6%world_id% &eGlobal Envoy spawned!'
+    time_left_command:
+      permission: 'apiaenvoy.global.timeleft'
+      usage:
+        - '&e/ApiaEnvoy Global TimeLeft [String: world_id] &7&l»&f Check time left to Envoy'
+      aliases: 'gtl'
+      complete:
+        no_global_envoy: '&cNo Global Envoy found with: %world_id%!'
+        successful: '&6%time% &eleft to Envoy!'
+    compass_command:
+      permission: 'apiaenvoy.global.compass'
+      usage:
+        - '&e/ApiaEnvoy Global Compass &7&l»&f Toggles compass mode'
+      aliases: 'gc'
+      complete:
+        turned_off: 'Compass mode is turned off.'
+        no_compass: '&cYou don''t have compass in your hand.'
+        no_envoy: '&cNo Envoy found in your world for compass.'
+        successful: 'Compass mode is turned on.'
+    flare_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Flare (Player) (String: Id) [Int: Amount] &7&l»&f Give flare to the player'
+      aliases: 'gf'
+      complete:
+        missing_player: '&6%player% &enot found!'
+        not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
+        amount_must_be_integer: '&cAmount must be integer!'
+        amount_can_not_greater_than_1: '&cSince this flare is auto mode, the amount cannot be greater than 1.'
+        successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
+    loots_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Loots (t: Tiers) [mint: Min Tier] [maxt: Max Tier] &7&l»&f See the possible loots'
+      aliases: 'gl'
+      complete:
+        tiers_can_not_empty: '&cTiers can not be empty!'
+        min_tier_must_be_integer: '&cMin tier must be integer!'
+        max_tier_must_be_integer: '&cMax tier must be integer!'
+        loot_format: '&7 - &e%amount%* %id%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eLoots &8&m============='
+          - ''
+          - '%loots%'
+          - ''
+          - '&8&m================================================'
+          - ''
+    clear_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Clear [Boolean: Drop contents] &7&l»&f Clear global envoys'
+      aliases: 'gc'
+      complete:
+        is_not_boolean: '&c%arg% is not a boolean!'
+        successful_contents_dropped: 'Cleared %amount% Global Envoy(s) and contents are dropped.'
+        successful_contents_not_dropped: 'Cleared %amount% Global Envoy(s) and contents are not dropped.'
+    list_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global List &7&l»&f List global envoys and teleport'
+      aliases: 'glist'
+      complete:
+        no_global_envoy: '&cThere is no global envoy.'
+        envoy_format: '&7 - &e%world%&7_&e%id%&7: &e%location%'
+        hover: '&7Click to teleport to Envoy.'
+        run: '/tppos %x% %y% %z% %world%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eGlobal Envoys &8&m============='
+          - ''
+          - '%envoys%'
+          - ''
+          - '&8&m================================================='
+          - ''
+  platform:
+    envoy_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Envoy [p: Player] [t: Tiers] [r: Reason In The Hologram] &7&l»&f Envoy without waiting the time'
+      aliases: 'e'
+      complete:
+        player_not_found: '&6%player% &enot found!'
+        player_does_not_have_island: '&6%player% &edoesn''t have island!'
+        successful: 'Envoy spawned!'
+        successful_with_reason: 'Envoy spawned with reason &6%reason%&e!'
+        successful_for_player: 'Envoy spawned for &6%player%&e!'
+        successful_for_player_with_reason: 'Envoy spawned for &6%player% &ewith reason &6%reason%&e!'
+        queued: '&eEnvoy queued for &6%player%&e.'
+    time_left_command:
+      permission: 'apiaenvoy.timeleft'
+      usage:
+        - '&e/ApiaEnvoy Platform TimeLeft &7&l»&f Check time left to Envoy'
+      aliases: 'tl'
+      complete:
+        successful: '&6%time% &eleft to Envoy!'
+    flare_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Flare (Player) (String: Id) [Int: Amount] &7&l»&f Give flare to the player'
+      aliases: 'f'
+      complete:
+        missing_player: '&6%player% &enot found!'
+        not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
+        amount_must_be_integer: '&cAmount must be integer!'
+        amount_can_not_greater_than_1: '&cSince this flare is auto mode, the amount cannot be greater than 1.'
+        successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
+    set_location_command:
+      permission: 'apiaenvoy.location'
+      usage:
+        - '&e/ApiaEnvoy Platform SetLocation &7&l»&f Set Envoy location for your island'
+      aliases: 'sl'
+      complete:
+        must_have_island: '&cYou must have island to do that.'
+        must_owner: '&cYou must island''s owner to do that.'
+        must_in_your_island: '&cYou must in your island to do that.'
+        successful: 'Successful! Envoy will fall to your location from now on.'
+    delete_location_command:
+      permission: 'apiaenvoy.location'
+      usage:
+        - '&e/ApiaEnvoy Platform DeleteLocation &7&l»&f Delete Envoy location for your island'
+      aliases: 'dl'
+      complete:
+        must_have_island: '&cYou must have island to do that.'
+        must_owner: '&cYou must island''s owner to do that.'
+        must_in_your_island: '&cYou must in your island to do that.'
+        successful: 'Successful! Envoy will fall to default location from now on.'
+    set_owner_only_command:
+      permission: 'apiaenvoy.setowneronly'
+      usage:
+        - '&e/ApiaEnvoy Platform SetOwnerOnly (True/False) &7&l»&f Set Envoy to be openable only for its owner'
+      aliases: 'so'
+      complete:
+        not_enabled: '&cOwner only is not enabled.'
+        must_have_island: '&cYou must have island to do that.'
+        must_owner: '&cYou must island''s owner to do that.'
+        same_value: '&cThe value you provide is the same as the default value.'
+        successful: 'Successful!'
+    teleport_command:
+      permission: 'apiaenvoy.teleport'
+      usage:
+        - '&e/ApiaEnvoy Platform Teleport &7&l»&f Teleport to your Envoy'
+      aliases: 'tp'
+      complete:
+        must_have_island: '&cYou must have island to do that.'
+        must_have_envoy: '&cYou must have Envoy to do that.'
+        failed: '&cSomething went wrong!'
+        successful: '&eYou teleported to your Envoy successfully.'
+    loots_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Loots (t: Tiers) [mint: Min Tier] [maxt: Max Tier] &7&l»&f See the possible loots'
+      aliases: 'pl'
+      complete:
+        tiers_can_not_empty: '&cTiers can not be empty!'
+        min_tier_must_be_integer: '&cMin tier must be integer!'
+        max_tier_must_be_integer: '&cMax tier must be integer!'
+        loot_format: '&7 - &e%amount%* %id%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eLoots &8&m============='
+          - ''
+          - '%loots%'
+          - ''
+          - '&8&m================================================'
+          - ''
+    clear_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Clear [Boolean: Drop contents] &7&l»&f Clear global envoys'
+      aliases: 'pc'
+      complete:
+        is_not_boolean: '&c%arg% is not a boolean!'
+        successful_contents_dropped: 'Cleared %amount% Platform Envoy(s) and contents are dropped.'
+        successful_contents_not_dropped: 'Cleared %amount% Platform Envoy(s) and contents are not dropped.'
+
+menus:
+  conversation:
+    local_echo: true
+    modality: true
+    cancellers:
+      - 'cancel'
+      - 'exit'
+  common:
+    add_tier:
+      set_id: '&ePlease type an id. Type ''cancel'' to exit.'
+      set_id_exist: '&cTier with same id is exist.'
+      set_can_spawn_in_envoy: '&eCan spawn in envoy? Type ''cancel'' to exit.'
+      set_allow_duplicate: '&eAllow duplicate? Type ''cancel'' to exit.'
+      set_shuffle_loots: '&eShuffle loots? Type ''cancel'' to exit.'
+      set_chance: '&eSet chance. Type ''cancel'' to exit.'
+      set_minimum_loot: '&eSet minimum loot. Type ''cancel'' to exit.'
+      set_maximum_loot: '&eSet maximum loot. Type ''cancel'' to exit.'
+      is_not_completed: '&cTier is not completed.'
+      completed: '&eTier is completed.'
+    add_item_loot:
+      set_id: '&ePlease type an id. Type ''cancel'' to exit.'
+      set_id_exist: '&cLoot with same id is exist.'
+      set_chance: '&eSet chance. Type ''cancel'' to exit.'
+      add_message: '&ePlease type a message line. Type ''cancel'' to exit.'
+      add_broadcast: '&ePlease type a broadcast line. Type ''cancel'' to exit.'
+      is_not_completed: '&cLoot is not completed.'
+      completed: '&eLoot is completed.'
+    add_bulk_item_loots:
+      is_not_completed: '&cYou need to put items to the inventory.'
+      completed: '&eItems are added to the config. Make sure you edit them before reloading configuration files.'
+    add_command_loot:
+      set_id: '&ePlease type an id. Type ''cancel'' to exit.'
+      set_id_exist: '&cLoot with same id is exist.'
+      set_chance: '&eSet chance. Type ''cancel'' to exit.'
+      add_server_command: '&ePlease type a server command without slash. Type ''cancel'' to exit.'
+      add_player_command: '&ePlease type a player command without slash. Type ''cancel'' to exit.'
+      add_message: '&ePlease type a message line. Type ''cancel'' to exit.'
+      add_broadcast: '&ePlease type a broadcast line. Type ''cancel'' to exit.'
+      is_not_completed: '&cLoot is not completed.'
+      completed: '&eLoot is completed.'
+  global:
+    add_location_based_envoy:
+      set_id_world_first: '&cYou need to set world first.'
+      set_id: '&ePlease type an id. Type ''cancel'' to exit.'
+      set_id_exist: '&cEnvoy with same id is exist.'
+      set_title: '&ePlease type a title. Type ''cancel'' to exit.'
+      set_time: '&ePlease type a time. Type ''cancel'' to exit.'
+      set_amount: '&ePlease type an amount, valid values are: integer, "online_players" and "online_players_on_map". Type ''cancel'' to exit.'
+      set_minimum_tier: '&eSet minimum tier. Type ''cancel'' to exit.'
+      set_maximum_tier: '&eSet maximum tier. Type ''cancel'' to exit.'
+      set_compass: '&eCan compass track this Envoy? Type ''cancel'' to exit.'
+      set_rise: '&eCan Envoy rise when collected or broken? Type ''cancel'' to exit.'
+      set_lightning: '&eLightning when land? Type ''cancel'' to exit.'
+      set_minimum_player_on_server: '&eSet minimum player on server. Type ''cancel'' to exit.'
+      set_minimum_player_on_map: '&eSet minimum player on map. Type ''cancel'' to exit.'
+      set_delete_envoy_after: '&eSet delete envoy after (minute). Type ''cancel'' to exit.'
+      set_radius_for_monsters: '&eSet radius for monsters. Type ''cancel'' to exit.'
+      set_envoy_fall_type: '&ePlease type an envoy fall type. Valid values are: ARMOR_STAND, ARMOR_STAND_2 and FALLING_BLOCK. Type ''cancel'' to exit.'
+      add_hologram_line: '&ePlease type a hologram line. Type ''cancel'' to exit.'
+      is_not_completed: '&cEnvoy is not completed.'
+      completed: '&eEnvoy is completed.'
+    add_player_based_envoy:
+      set_id_world_first: '&cYou need to set world first.'
+      set_id: '&ePlease type an id. Type ''cancel'' to exit.'
+      set_id_exist: '&cEnvoy with same id is exist.'
+      set_title: '&ePlease type a title. Type ''cancel'' to exit.'
+      set_time: '&ePlease type a time. Type ''cancel'' to exit.'
+      set_amount: '&ePlease type an amount, valid values are: integer, "online_players" and "online_players_on_map". Type ''cancel'' to exit.'
+      set_per_player: '&eSet per player, true or false. Type ''cancel'' to exit.'
+      set_minimum_tier: '&eSet minimum tier. Type ''cancel'' to exit.'
+      set_maximum_tier: '&eSet maximum tier. Type ''cancel'' to exit.'
+      set_compass: '&eCan compass track this Envoy? Type ''cancel'' to exit.'
+      set_rise: '&eCan Envoy rise when collected or broken? Type ''cancel'' to exit.'
+      set_lightning: '&eLightning when land? Type ''cancel'' to exit.'
+      set_minimum_player_on_server: '&eSet minimum player on server. Type ''cancel'' to exit.'
+      set_minimum_player_on_map: '&eSet minimum player on map. Type ''cancel'' to exit.'
+      set_delete_envoy_after: '&eSet delete envoy after (minute). Type ''cancel'' to exit.'
+      set_radius_for_monsters: '&eSet radius for monsters. Type ''cancel'' to exit.'
+      set_envoy_fall_type: '&ePlease type an envoy fall type. Valid values are: ARMOR_STAND, ARMOR_STAND_2 and FALLING_BLOCK. Type ''cancel'' to exit.'
+      add_hologram_line: '&ePlease type a hologram line. Type ''cancel'' to exit.'
+      set_offset: '&ePlease type an offset. Type ''cancel'' to exit.'
+      set_y_formula: '&ePlease type y formula. Type ''cancel'' to exit.'
+      is_not_completed: '&cEnvoy is not completed.'
+      completed: '&eEnvoy is completed.'
+    add_envoy_location:
+      set_x: '&ePlease type x coordinate. Type ''cancel'' to exit.'
+      set_y: '&ePlease type y coordinate. Type ''cancel'' to exit.'
+      set_z: '&ePlease type z coordinate. Type ''cancel'' to exit.'
+      set_radius: '&ePlease type radius. Type ''cancel'' to exit.'
+      set_y_formula: '&ePlease type y formula. Type ''cancel'' to exit.'
+      set_amount: '&ePlease type an amount, valid values are: integer, "online_players" and "online_players_on_map". Type ''cancel'' to exit.'
+      set_region: '&ePlease type a region. Type ''cancel'' to exit.'
+      is_not_completed: '&cEnvoy location is not completed.'

@@ -1,0 +1,36 @@
+#
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#
+
+menu:
+  platform:
+    title: '&8[&ePlatform&8]'
+    size: 27
+    fill:
+      item:
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    interactive_content:
+      add_tier:
+        slot: 11
+        item:
+          name: '&eAdd tier'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBmNTM5ODUxMGIxYTA1YWZjNWIyMDFlYWQ4YmZjNTgzZTU3ZDcyMDJmNTE5M2IwYjc2MWZjYmQwYWUyIn19fQ=='
+      add_loot:
+        slot: 15
+        item:
+          name: '&eAdd loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE2ZGFjODAzNWQzNjFiYTdmMmMyYTYxNGI0ZWJhYWZjMWU1ZTMxMDFmODViZWVmNjgzNTM2ZjMzN2U1MDkwIn19fQ=='
+      back:
+        slot: 18
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
