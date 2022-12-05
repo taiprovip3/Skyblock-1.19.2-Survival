@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "a749f3d8-5357-3bdc-854b-497961011e61",
+    "name": "atai",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

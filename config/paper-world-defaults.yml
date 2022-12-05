@@ -214,7 +214,7 @@ environment:
     find-already-discovered:
       loot-tables: default
       villager-trade: false
-  water-over-lava-flow-speed: 5
+  water-over-lava-flow-speed: 0
 feature-seeds:
   generate-random-seeds-for-all: false
 fishing-time-range:

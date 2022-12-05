@@ -881,364 +881,6 @@ global_envoys:
     compass: false
     rise: true
     opened: false
-  world_223,0_68,0_154,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215698242
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_146,0_68,0_453,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215698793
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_63,0_-64,0_355,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703242
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_260,0_-64,0_230,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703290
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_172,0_-64,0_219,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703306
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_108,0_-64,0_53,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703328
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_137,0_-64,0_27,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703329
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_356,0_-64,0_339,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703447
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_78,0_-64,0_336,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703474
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_310,0_-64,0_44,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703489
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_391,0_-64,0_132,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703491
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_258,0_-64,0_457,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703494
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_430,0_-64,0_437,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703497
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_105,0_-64,0_175,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703520
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_68,0_-64,0_195,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703536
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_168,0_-64,0_145,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703555
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_154,0_-64,0_324,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703564
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_119,0_-64,0_486,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703566
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_191,0_-64,0_369,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703616
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_43,0_-64,0_114,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703668
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_306,0_-64,0_329,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703670
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_98,0_-64,0_283,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703672
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_381,0_-64,0_342,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703673
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_425,0_-64,0_60,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703674
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_452,0_-64,0_457,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703677
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_97,0_-64,0_373,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703686
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_239,0_-64,0_376,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703688
-    holder: BLACK_SHULKER_BOX
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_473,0_-64,0_208,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703695
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_356,0_-64,0_465,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703698
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_388,0_-64,0_143,0:
-    world_id: world_0
-    holograms:
-    - '&eTier 1 and Tier 2'
-    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
-    time: 1670215703753
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
-  world_387,0_-64,0_121,0:
-    world_id: world_0
-    holograms:
-    - '&6-----------'
-    - '&eTier2 LOOT!'
-    - '&6-----------'
-    time: 1670215703765
-    holder: CHEST
-    delete_envoy_after: 5
-    compass: true
-    rise: false
-    opened: false
   world_0,0_12,0_0,0:
     world_id: world_1
     holograms:
@@ -1467,4 +1109,1960 @@ global_envoys:
     delete_envoy_after: 0
     compass: false
     rise: true
+    opened: false
+  world_0,0_32,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421251
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_33,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421256
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_34,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421312
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_35,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421314
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_36,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421315
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_37,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421317
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_38,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421320
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_39,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421322
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_40,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421325
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_41,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421330
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_42,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421332
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_43,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421337
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_44,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421339
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_45,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421344
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_46,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421347
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_47,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219421349
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_48,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421351
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_49,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421353
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_50,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421355
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_51,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219421358
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_52,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721197
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_53,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721198
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_54,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721199
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_55,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721200
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_56,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721200
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_57,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721201
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_58,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721202
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_59,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721203
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_60,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721203
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_61,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721204
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_62,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721205
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_63,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721207
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_64,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721208
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_65,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721209
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_66,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721211
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_67,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721212
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_68,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721214
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_69,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670219721216
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_70,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721217
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_71,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670219721219
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_72,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021245
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_73,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021246
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_74,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021247
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_75,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021247
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_76,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021248
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_77,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021249
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_78,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021249
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_79,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021250
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_80,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021251
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_81,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021252
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_82,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021253
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_83,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021253
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_84,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021254
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_85,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021256
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_86,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021257
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_87,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021258
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_88,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021259
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_89,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220021260
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_90,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021262
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_91,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220021263
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_92,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321195
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_93,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321196
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_94,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321197
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_95,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321197
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_96,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321198
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_97,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321198
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_98,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321199
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_99,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321199
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_100,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321200
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_101,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321200
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_102,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321201
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_103,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321202
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_104,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321202
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_105,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321203
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_106,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321203
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_107,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321204
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_108,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321205
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_109,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321206
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_110,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220321207
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_111,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220321207
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_112,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621247
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_113,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621248
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_114,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621248
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_115,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621251
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_116,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621251
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_117,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621252
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_118,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621253
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_119,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621253
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_120,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621261
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_121,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621265
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_122,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621266
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_123,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621268
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_124,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621269
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_125,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621270
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_126,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621271
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_127,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621272
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_128,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621273
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_129,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220621274
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_130,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621274
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_131,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220621275
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_132,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996896
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_133,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996896
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_134,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996897
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_135,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996897
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_136,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996898
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_137,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996899
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_138,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996899
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_139,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996900
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_140,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996900
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_141,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996902
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_142,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996903
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_143,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996904
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_144,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996905
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_145,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996907
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_146,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996908
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_147,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996909
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_148,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670220996910
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_149,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996911
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_150,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996912
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_151,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670220996913
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_152,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296844
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_153,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296845
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_154,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296845
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_155,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296845
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_156,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296846
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_157,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296846
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_158,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296846
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_159,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296847
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_160,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296847
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_161,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296848
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_162,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296848
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_163,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296849
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_164,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296850
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_165,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296850
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_166,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296851
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_167,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296853
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_168,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670221296854
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_169,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296855
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_170,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296856
+    holder: CHEST
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_0,0_171,0_0,0:
+    world_id: world_1
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670221296857
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 0
+    compass: false
+    rise: true
+    opened: false
+  world_113,0_-64,0_275,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429613
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_2,0_-64,0_264,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429617
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_276,0_-64,0_317,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429662
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_169,0_-64,0_85,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429665
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_84,0_-64,0_186,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429668
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_303,0_-64,0_218,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429669
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_200,0_-64,0_95,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429671
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_92,0_-64,0_239,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429710
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_242,0_-64,0_144,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429713
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_14,0_-64,0_135,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429761
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_224,0_-64,0_22,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429811
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_176,0_-64,0_216,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429813
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_227,0_-64,0_32,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429861
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_255,0_-64,0_316,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429863
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_255,0_-64,0_70,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429864
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_6,0_-64,0_248,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429865
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_277,0_-64,0_216,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429866
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_227,0_-64,0_323,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429910
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_102,0_-64,0_234,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223429913
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_338,0_-64,0_51,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223429915
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_345,0_-64,0_95,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223430011
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_346,0_-64,0_279,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430261
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_371,0_-64,0_467,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223430315
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_495,0_-64,0_200,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223430462
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_491,0_-64,0_195,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430611
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_396,0_-64,0_91,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430613
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_360,0_-64,0_154,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430614
+    holder: BLACK_SHULKER_BOX
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_148,0_-64,0_416,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430660
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_453,0_-64,0_437,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430712
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_263,0_-64,0_496,0:
+    world_id: world_0
+    holograms:
+    - '&6-----------'
+    - '&eTier2 LOOT!'
+    - '&6-----------'
+    time: 1670223430863
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
+    opened: false
+  world_318,0_-64,0_443,0:
+    world_id: world_0
+    holograms:
+    - '&eTier 1 and Tier 2'
+    - '&8&kkkkkk&6GLOBAL ENVOY&8&kkkkkk'
+    time: 1670223430864
+    holder: CHEST
+    delete_envoy_after: 5
+    compass: true
+    rise: false
     opened: false
